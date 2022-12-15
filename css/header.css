@@ -87,15 +87,15 @@
     overflow: hidden;
     transition: 1s;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
-.all-sub-menual2 {
+/* .all-sub-menual2 {
     width: auto;
     height: auto;
     border: 3px solid black;
     display: flex;
     margin: 0 auto;
-}
+} */
 .subtitle {
     width: 188px;
     height: 0;

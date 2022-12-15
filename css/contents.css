@@ -1,0 +1,242 @@
+p,
+span {
+    display: block;
+}
+
+.contents {
+    width: 100%;
+    height: auto;
+}
+
+#content-top,
+#content-mid,
+#content-bottom {
+    width: 100%;
+}
+
+
+/* Content-TOP!! */
+#content-top {
+    /* border: 1px solid black; */
+    height: 900px;
+    background-image: url('../image/KakaoTalk_20221214_114740406.jpg');
+    padding-top: 17%;
+}
+
+#content-top>img {
+    width: 100%;
+    height: 100%;
+}
+
+#content-top .top-text {
+    /* border: 1px solid black; */
+}
+
+.top-text {
+    width: 100%;
+}
+
+.top-text span {
+    display: block;
+    color: white;
+    /* margin-bottom: 10px; */
+    padding: 20px;
+}
+
+.top-text>span:nth-child(1) {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 41px;
+}
+
+.top-text>span:nth-child(2) {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 28px;
+}
+
+.top-text>span:nth-child(3) {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 46px;
+}
+
+
+/* Content-Mid 구간 */
+#content-mid {
+    height: auto;
+    /* background-color: aqua; */
+}
+
+/* Mid-TOP 위치 */
+.content-mid-top {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid purple; */
+    display: flex;
+}
+
+.content-mid-left {
+    width: 50%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+.content-mid-left>img {
+    width: 658px;
+    height: 827px;
+    margin: 0 109px;
+    margin-top: 70px;
+}
+
+.content-mid-top .mid-text>span {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.content-mid-top .mid-text {
+    /* border: 3px solid slategrey; */
+    margin: 0px 109px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.content-mid-top .mid-text>span:nth-child(1) {
+    font-size: 40px;
+    color: orange;
+    font-weight: 700;
+}
+
+.content-mid-top .mid-text>span:nth-child(2) {
+    font-size: 20px;
+}
+
+.content-mid-top .mid-text>span:nth-child(3) {
+    font-size: 20px;
+}
+
+
+.content-mid-right {
+    width: 50%;
+    height: auto;
+    /* border: 2px solid orange; */
+}
+
+.content-mid-right img {
+    width: 879px;
+    height: 641px;
+    margin-left: -50px;
+}
+
+
+
+/* Mid-bottom 위치 */
+.content-mid-bottom {
+    width: 100%;
+    /* border: 2px solid crimson; */
+    display: flex;
+}
+
+.bottom-left {
+    width: 50%;
+    /* border: 2px solid violet; */
+    padding-top: 50px;
+    position: relative;
+}
+
+.bottom-left img:nth-child(1) {
+    width: 800px;
+    height: 583px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+
+.bottom-left img:nth-child(2) {
+    width: 325px;
+    height: 408px;
+    position: absolute;
+    right: 0;
+    top: 425px;
+}
+
+.bottom-right {
+    width: 50%;
+    /* border: 2px solid peru; */
+    margin-top: 10%;
+}
+
+.bottom-right .bottom-text {
+    /* border: 2px solid red; */
+    margin: 0 123px;
+}
+
+.bottom-right .bottom-text>p {
+    /* border:1px solid black; */
+    display: flex;
+}
+
+/* p1의 자식요소 */
+.bottom-right .bottom-text>p:nth-child(1) {
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.bottom-right .bottom-text>p:nth-child(1)>span:nth-child(1) {
+    border: 1px solid black;
+    font-size: 100px;
+    display: inline;
+    margin-left: 5%;
+}
+
+.bottom-right .bottom-text>p:nth-child(1)>span:nth-child(2) {
+    /* border: 1px solid black; */
+    padding-left: 5%;
+    font-size: 24px;
+    margin-left: 3%;
+}
+
+/* p2의 자식요소 */
+.bottom-right .bottom-text>p:nth-child(2) {
+    align-items: center;
+    font-size: 30px;
+}
+
+.bottom-right .bottom-text>p:nth-child(2)>span {
+    border: 1px solid black;
+    font-size: 72px;
+}
+
+/* p3의 자식요소 */
+.bottom-right .bottom-text>p:nth-child(3) {
+    align-items: center;
+    display: block;
+}
+
+.bottom-right .bottom-text>p:nth-child(3)>span {
+    /* border:1px solid black; */
+    font-size: 19px;
+}
+
+
+
+/* Content-Bottom 구간 */
+#content-bottom {
+    /* border: 2px solid darkblue; */
+}
+
+#content-bottom>div:nth-child(1) {
+    width: 100%;
+    background-color: pink;
+}
+
+#content-bottom img{
+    position: relative;
+    width:100%;
+    height: 90%;
+}
+
+#content-bottom>div:nth-child(2) {
+    width: 100%;
+    height: 653px;
+    background-color: steelblue;
+}

@@ -1,0 +1,296 @@
+/* 폰트 적용 */
+@font-face {
+    font-family:'C-Light';
+    src:url('../font/CormorantGaramond-Light.ttf')
+}
+@font-face {
+    font-family:'C-Medium';
+    src:url('../font/CormorantGaramond-Medium.ttf')
+}
+p,span {
+    display: block;
+}
+
+.contents{
+    width: 100%;
+    height: auto;
+    margin-top:93px;
+}
+
+#content-top,#content-mid,#content-bottom
+{
+    width: 100%;
+}
+
+
+/* Content-TOP!! */
+#content-top{
+    /* border: 1px solid black; */
+    height: 900px;
+    background-image:url('../image/KakaoTalk_20221214_114740406.jpg') ;
+    background-size: cover;
+    padding-top: 17%;
+}
+#content-top>img {
+    width: 100%;
+    height: 100%;
+}
+#content-top .top-text {
+    /* border: 1px solid black; */
+}
+.top-text {
+    width: 100%;
+}
+.top-text span{
+    display: block;
+    color: white;
+    /* margin-bottom: 10px; */
+    padding: 20px;
+}
+.top-text>span:nth-child(1){
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 41px;
+    font-family: 'C-Light';
+}
+.top-text>span:nth-child(2){
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 28px;
+}
+.top-text>span:nth-child(3){
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+
+/* Content-Mid 구간 */
+#content-mid{
+    height: auto;
+    /* background-color: aqua; */
+}
+
+/* Mid-TOP 위치 */
+.content-mid-top {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid purple; */
+    display: flex;
+}
+.content-mid-left {
+    width: 50%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+.content-mid-left>img {
+    width: 658px;
+    height: 827px;
+    margin: 0 109px;
+    margin-top: 70px;
+}
+.content-mid-top .mid-text>span {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.content-mid-top .mid-text {
+    /* border: 3px solid slategrey; */
+    margin: 0px 109px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.content-mid-top .mid-text>span:nth-child(1) {
+    font-size: 40px;
+    color: orange;
+    font-weight: 700;
+}
+.content-mid-top .mid-text>span:nth-child(2) {
+    font-size: 20px;
+}
+.content-mid-top .mid-text>span:nth-child(3) {
+    font-size: 20px;
+}
+
+
+.content-mid-right {
+    width: 50%;
+    height: auto;
+    /* border: 2px solid orange; */
+}
+.content-mid-right img {
+    width: 879px;
+    height: 641px;
+    margin-left: -50px;
+}
+
+
+
+/* Mid-bottom 위치 */
+.content-mid-bottom {
+    width: 100%;
+    /* border: 2px solid crimson; */
+    display: flex;
+}
+
+.bottom-left {
+    width: 50%;
+    /* border: 2px solid violet; */
+    padding-top: 50px;
+    position: relative;
+}
+.bottom-left img:nth-child(1) {
+    width: 800px;
+    height: 583px;
+    margin-left: 50px;
+    margin-bottom: 300px ;
+}
+.bottom-left img:nth-child(2) {
+    width: 325px;
+    height: 408px;
+    position: absolute;
+    right: 0; top: 425px;
+}
+
+.bottom-right {
+    width: 50%;
+    /* border: 2px solid peru; */
+    margin-top: 10%;
+}
+.bottom-right .bottom-text {
+    /* border: 2px solid red; */
+    margin: 0 123px;
+}
+.bottom-right .bottom-text>p {
+    /* border:1px solid black; */
+    display: flex;
+}
+
+.bottom-text {
+    width: 700px;
+    /* border: 1px solid black; */
+}
+/* p1의 자식요소 */
+.bottom-right .bottom-text>p:nth-child(1) {
+    width: auto;
+    align-items: center;
+    margin-bottom: 5%;
+    /* border: 1px solid black; */
+}
+.bottom-right .bottom-text>p:nth-child(1)>span:nth-child(1) {
+    border-bottom: 1px solid #ff812c;
+    margin-left: 5%;
+    font-size: 150px;
+    color: #ff812c;
+    font-family: 'C-Light';
+    line-height: 130px;
+}
+.bottom-right .bottom-text>p:nth-child(1)>span:nth-child(2) {
+    /* border: 1px solid black; */
+    font-size: 24px;
+    color: #ff812c;
+    margin-top: 40px;
+    padding-left: 3%;
+    text-align: left;
+    letter-spacing: -3px;
+}
+
+/* p2의 자식요소 */
+.bottom-right .bottom-text>p:nth-child(2) {
+    width: auto;
+    align-items: center;
+    font-size: 30px;
+    /* border: 1px solid black; */
+}
+.bottom-right .bottom-text>p:nth-child(2)>span {
+    /* border:1px solid black; */
+    font-size: 72px;
+    color: #ff812c;
+    font-family: 'C-Medium';
+    font-style: oblique;
+    display: block;
+    line-height: 90px;
+    height: 100px;
+}
+
+/* p3의 자식요소 */
+.bottom-right .bottom-text>p:nth-child(3) {
+    width: auto;
+    align-items: center;
+    display: block;
+    /* border: 1px solid black; */
+}
+.bottom-right .bottom-text>p:nth-child(3)>span {
+    /* border:1px solid black; */
+    font-size: 19px;
+    text-align: left;
+    font-family: 'Noto Sans KR';
+}
+
+
+
+/* Content-Bottom 구간 */
+#content-bottom{
+    background-image: url('../image/KakaoTalk_20221214_114740406.jpg');
+    background-size: cover;
+    /* border: 2px solid darkblue; */
+    position: relative;
+}
+
+#content-bottom-title{
+    padding: 5px;
+    padding-top: 100px;
+}
+#content-bottom-title>span,p {
+    display: block;
+    text-align: center;
+}
+#content-bottom-title>span:nth-child(1){
+    /* border: 1px solid black; */
+    font-size: 120px;
+    font-family: 'C-Light';
+    font-style: oblique;
+    position: absolute;
+    left: 453px; top: 30px;
+    margin: 0;
+    color: lightgray;
+    opacity: 0.4;
+}
+#content-bottom-title>span:nth-child(2){
+    /* border: 1px solid black; */
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    letter-spacing:-5.5px;
+    z-index: 1;
+    margin-bottom: 35px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#content-bottom-title>p{
+    /* border: 1px solid black; */
+    font-size: 28px;
+    color: white;
+    letter-spacing:-1.5px;
+    margin: 0 auto;
+}
+
+
+/* SLIDE 구간 */
+#content-bottom-slide{
+    width: 100%;
+    height: auto;
+    /* background-color: steelblue; */
+    padding: 150px 200px;
+}
+
+#content-bottom-slide img{
+    position: relative;
+    width:100%;
+    height: 90%;
+}
+
+#content-bottom-slide>div:nth-child(2) {
+    width: 100%;
+    height: 653px;
+}

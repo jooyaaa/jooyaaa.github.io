@@ -1,0 +1,267 @@
+/* body {
+    background-color: slateblue;
+} */
+
+/* class가 logo 안의 img 요소 변화 */
+.logo>img{
+    /* 넓이 변화 */
+    width: 300px;
+    /* 높이 */
+    height: 93.39px;
+    /* 글자 중간으로 */
+    text-align: center;
+    /* border: 1px solid red; */
+    /* block : 상 하 로 준다 */
+    display: block;
+    /* 줄 높이 정함 */
+    line-height: 80px;
+}
+
+/* id가 header인 요소 변화 */
+#header{
+    /* 넓이 */
+    width: 100%;
+    /* 높이 */
+    height: 93.39px;
+    /* border: 1px solid black; */
+    /* 배경색 변화 */
+    background-color: white;
+    /* position : fixed : 요소를 항상 고정된 요소로 준다*/
+    position: fixed;
+    /* 위  */
+    top: 0;
+    /* 겹칠시 먼저 보여질 순번 */
+    z-index: 2;
+    /* flex로 줄 시 좌우로 펼쳐진다 */
+    display: flex;
+    /* 좌우 중 왼쪽부터 나온다 */
+    justify-content: left;
+    /* 위 아래 에서 중간 */
+    align-items: center;
+}
+/* id가 main-menu 인 요소 변화 */
+#main-menu{
+    /* 넓이 */
+    width: 50%;
+    /* 높이 */
+    height: 93.39px;
+    /* border: 3px solid rgb(63, 189, 105); */
+    /* background-color: slategray; */
+    /* 여백 0 자동으로 늘어남 */
+    margin: 0 auto;
+    /* 여백 왼쪽 부분 150px만큼 준다 */
+    margin-left: 150px;
+}
+/* class가 sub-menu1인 요소 변화 */
+.sub-menu1{
+    /* 넓이 */
+    width: 700px;
+    /* 높이 */
+    height: 93.39px;
+    /* border: 2px solid blue; */
+    /* 요소 여백 없지만 상황에따라 늘어난다 */
+    margin: 0 auto;
+    /* 좌,우 로 펼쳐준다 */
+    display: flex;
+    /* 상하 에서 중간 */
+    align-items: center;
+    /* 글자 크기 */
+    font-size: 17px;
+    /* 글자체 */
+    font-family:'Noto Sans KR', sans-serif;
+}
+
+/* id가 submenu1안의 li 태그 요소 변화 */
+.sub-menu1>li{
+    /* 넓이 */
+    width: 120px;
+    /* 높이 */
+    height: 93.39px;
+    /* border: 2px solid rgb(255, 26, 217); */
+    /* 좌,우로 보여준다 */
+    display: flex;
+    /* 상 하 에서 중간으로 보여준다 */
+    align-items: center;
+    /* 요소 여백 없지만 자동으로 늘어난다. */
+    margin: 0 auto;
+}
+
+/* class가 sub-menu1안의 li 안의 a 태그 요소 변화 */
+.sub-menu1>li>a{
+    /* 높이 */
+    height: 100%;
+    /* border: 1px solid green; */
+    /* 좌,우로 펼쳐줌 */
+    display: flex;
+    /* 글자를 중간에서 시작 */
+    text-align: center;
+    /* 요소를 좌우에서 중간에서 시작 */
+    justify-content: center;
+    /* 요소를 상하에서 중간에서 시작 */
+    align-items: center;
+}
+
+/* class가 all-main인 요소 변화 */
+.all-main {
+    /* 높이 */
+    height: 100%;
+    /* border: 2px solid rgb(0, 255, 21); */
+    /* position: relative; */
+    /* 좌,우로 보여줌 */
+    display: flex;
+    /* 좌우에서 왼쪽부터 시작 */
+    justify-content: left;
+}
+
+/* class가 all-main안의 id가 checkbtn 인 요소 변화 */
+.all-main>#checkbtn {
+    /* 보여주지 않는다. */
+    display: none;
+}
+
+/* class가 all-main안의 label 요소 변화 */
+.all-main>label {
+    /* 마우스가 올려질시 클릭모양이 나온다. */
+    cursor:pointer;
+    /* border: 1px solid black; */
+}
+
+/* 클릭 메뉴 */
+/* class가 all-menua1 인 요소 변화 */
+.all-menual {
+    /* 넓이 */
+    width: 100%;
+    /* 높이 */
+    height: 0;
+    /* border: 2px solid royalblue; */
+    /* 부모 요소를 기준으로 자리를 잡는다. */
+    position: absolute;
+    /* 위 왼쪽 변화 */
+    top: 100%; left: 0;
+    /* 우선적으로 보여줄거 지정 */
+    z-index: 1;
+    /* 바탕색 색깔 변화 */
+    background-color: white;
+    /* 실제로는 존재하나 width,height를 넘어가게 된다면(요소 밖으로 넘어갈 시 ) 보여주지 않는다. */
+    overflow: hidden;
+    /* 움직이도록 작동할시 작동이 완료될때까지의 시간을 설정한다. */
+    transition: 1s;
+    /* 좌,우로 배치한다. */
+    display: flex;
+    /* 좌우에서 중간으로 시작함. */
+    justify-content: center;
+}
+
+/* .all-sub-menual2 {
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    display: flex;
+    margin: 0 auto;
+} */
+
+/* class가 subtitle 인 요소 변화 */
+.subtitle {
+    /* 넓이 */
+    width: 188px;
+    /* 높이 */
+    height: 0;
+    /* 바깥 여백 조정 */
+    margin: 20px;
+    /* 안쪽 여백 조정 */
+    padding: 50px;
+    /* 글자 굵기 조정 */
+    font-weight: 700;
+    /* 테두리부분에서 밑에부분만 테두리를 준다. */
+    border-bottom: 2px solid black;
+}
+
+/* 전체메뉴 클릭시 호출 */
+
+/* id가 checkbtn인데 체크된거에서부터 class가 all-menua1인 요소 */
+#checkbtn:checked~.all-menual {
+    /* 좌우 배치 */
+    display: flex;
+    /* 넓이 */
+    height: 470px;
+    /* 이동될시 윗쪽으로 1초만에 다하게 */
+    transition: height 1s;
+}
+
+/* ///////////////////////////// */
+
+/* Hover 글자바꾸기 */
+/* id가 header이며 class가 sub-menu1안의 li태그중 2번째 태그안의 a태그인데 마우스가 올려질시 */
+#header .sub-menu1>li:nth-child(2)>a:hover {
+    /* 글씨 크기 */
+    font-size: 0;
+}
+/* 위의 요소 내용과 동일 ::before를 해 변화된 모습을 덮어 씌운다. */
+#header .sub-menu1>li:nth-child(2)>a:hover::before {
+    /* content : 뭘 적을건지 적는다. */
+    content: '이벤트';
+    /* 글자 크기 */
+    font-size: 1rem;
+}
+/* id가 header이며 class가 sub-menu1안의 li태그중 3번째 태그안의 a태그인데 마우스가 올려질시*/
+#header .sub-menu1>li:nth-child(3)>a:hover {
+    /* 글자 크기 */
+    font-size: 0;
+}
+/* 위의 요소 내용과 동일 ::before를 해 변화된 모습을 덮어 씌운다. */
+#header .sub-menu1>li:nth-child(3)>a:hover::before {
+    /* content : 뭘 적을건지 적는다. */
+    content: '고객만족센터';
+    /* 글자 크기 */
+    font-size: 1rem;
+}
+#header .sub-menu1>li:nth-child(4)>a:hover {
+    font-size: 0;
+}
+#header .sub-menu1>li:nth-child(4)>a:hover::before {
+    content: '공지이슈';
+    font-size: 1rem;
+}
+/* 현재 font를 사라지고 */
+#header .sub-menu1>li:nth-child(5)>a:hover {
+    font-size: 0;
+}
+/* 추가한 가상선택자가 추가한다 */
+#header .sub-menu1>li:nth-child(5)>a:hover::before {
+    content: '지정안내';
+    font-size: 1rem;
+}
+
+/* 링크 추가된 것 */
+
+/* id가 hiddenlink 인 요소 변화 */
+#hiddenlink {
+    /* 높이 */
+    height: 93.38px;
+    /* 넓이 */
+    width: 300px;
+}
+/* id가 hiddenlink 안의 a 태그 요소 변화 */
+#hiddenlink>a {
+    /* 글자색 변화 */
+    color: black;
+    /* 태그가 끝날때마다 밑으로 내려감 */
+    display: block;
+    /* background-color: aqua; */
+    /* 글자 중간에서 */
+    text-align: center;
+    /* 글자 간격 조정 */
+    line-height: 90px;
+}
+
+/* id가 hiddenlink 안의 a 태그 요소 변화 */
+#hiddenlink>a{
+    /* 표시하지 않는다. */
+    display: none;
+}
+
+/* id가 hiddenlink 안의 a 태그 요소인데 마우스가 올려졌을시 a 태그 변화 */
+#hiddenlink:hover  a{
+    /* 요소가 끝날시 밑으로 내린다. */
+    display: block;
+}

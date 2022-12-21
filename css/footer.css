@@ -1,0 +1,248 @@
+/* all 포함 */
+* {
+    /* 여백 x  */
+    margin: 0;
+    /* 안쪽 도 x */
+    padding: 0;
+    /* box-sizing : box의 사이즈를 어떤걸로 정할래? */
+    /* border-box : 테두리를 기준으로 잡아 */
+    box-sizing: border-box;
+}
+/* a 태그 속성 변화 */
+a {
+    /* 밑줄 금지 */
+    text-decoration: none;
+}
+/* ul 태그 속성 변화 */
+ul {
+    /* 글자 모양 변화 x */
+    list-style: none;
+}
+
+/* footer 요소 변화 */
+footer {
+    /* 넓이 */
+    width: 100%;
+    /* 높이 */
+    height: 757.047px;
+    /* 바탕색 색깔 */
+    background-color: #151515;
+    /* 글자체 */
+    font-family: NexonMaplestory;
+}
+/* id가 footer-wrap인 요소 변화 */
+#footer-wrap {
+    /* 넓이 */
+    width: 1500px;
+    /* 높이 */
+    height: 467.047px;
+    /* 여백 0 자동 */
+    margin: 0 auto;
+    /* border: 2px solid orange; */
+    /* 현재 내 요소를 기준으로 배치해 */
+    position: relative;
+}
+
+/* footer 로고 부분 */
+/* id가 footer-Logo 인 요소 변화 */
+#footer-Logo {
+    /* 높이 */
+    height: 72px;    
+    /* 색깔 */
+    color: white;
+    /* 밑 테두리 변화 */
+    border-bottom: 1px solid rgb(102,102,102);
+}
+
+/* id가 footer-Logo안의 img 변화 */
+#footer-Logo>img {
+    /* 끝날시 내린다. */
+    display: block;
+    /* 넓이 */
+    width: 200px;
+    /* 높이 자동으로 */
+    height: auto;
+    /* transform 위치를 조정하기 위해 쓴다. */
+    /* translateX : 상,하 움직임 변화 */
+    /* translateY : 좌,우 움직임 변화 */
+    transform: translateX(10%) translateY(10px);
+    /* border: 1px solid turquoise; */
+}
+
+
+
+/* FOOTER-TOP 구간 */
+/* id가 footer-wrap안의 id가 footer-top인 요소 변화 */
+#footer-wrap>#footer-top {
+    /* 넓이 */
+    width: 1500px;
+    /* 높이 */
+    height: 23px;
+    /* border: 1px solid rgb(255, 15, 15); */
+    /* float : 해당 요소를 어떻게 지정할래? */
+    /* float : left : 영역을 왼쪽에 정렬한다. */
+    float: left;
+    /* 여백 윗쪽으로 변화. */
+    margin-top: 30px;
+}
+
+/* id가 footer-wrap 안의 id가 footer-top 안의 a요소 변화 */
+#footer-wrap>#footer-top>a {
+    /* 넓이 자동 */
+    width: auto;
+    /* 높이 자동 */
+    height: auto;
+    /* border: 1px solid white; */
+    /* 끝날시 상,하로 */
+    display: block;
+    /* 해당요소 왼쪽에 정렬 */
+    float: left;
+    /* 글자색 회색 */
+    color: gray;
+    /* 오른쪽 여백 준다 */
+    margin-right: 20px;
+}
+/* #footer-wrap>#footer-top>a:nth-child(3) {
+    width: 80px;
+    height: auto;
+} */
+
+/* id가 footer-wrap 안의 id가 footer-top안의 span 인 요소 변화 */
+#footer-wrap>#footer-top>span {
+    /* 넓이 자동 */
+    width: auto;
+    /* 높이 자동 */
+    height: auto;
+    /* border: 1px solid white; */
+    /* 끝날시 상,하로 */
+    display: block;
+    /* 해당요소 왼쪽에 정렬 */
+    float: left;
+    /* 글자를 중간에서 시작 */
+    text-align: center;
+    /* 글자색 변화 */
+    color: gray;
+    /* 여백 왼쪽 변화 */
+    margin-left: 10px;
+}
+
+/* id가 footer-wrap안의 span 요소 변화 */
+#footer-wrap>span {
+    /* 넓이 변화 */
+    width: 1500px;
+    /* 높이 변화 */
+    height: auto;
+    /* border: 1px solid white; */
+    /* 색깔 변화 */
+    color: gray;
+    /* 해당요소를 왼쪽에 정렬 */
+    float: left;
+    /* 끝날시 내린다. */
+    display: block;
+}
+
+/* 하단 바텀구간 */
+
+/* id가 footer-bottom인 요소 변화 */
+#footer-bottom {
+    /* 넓이 */
+    width: 1500px;
+    /* 높이 */
+    height: 224px;
+    /* border: 1px solid palevioletred; */
+    /* 부모 요소 를 기준으로 배치한다. */
+    position: absolute;
+    /* 밑 */
+    bottom: 0;
+    /* 색깔 */
+    color: white;
+}
+
+/* class가 Copyright 인 요소 변화 */
+.Copyright {
+    /* 색깔 */
+    color: white;
+    /* 윗 여백 변화 */
+    margin-top: 70px;
+}
+
+/* footer-bottom구간 info-content 영역 */
+/* class가 info-content안의 p 태그 변화 */
+.info-content>p {
+    /* 글자 크기 */
+    font-size: 13px;
+    /* 끝날시 좌,우로 */
+    display: flex;
+    /* 밑 여백 변화 */
+    margin-bottom: 4px;
+}
+
+/* p2 부모요소 */
+
+/* class가 info-content 안의 p태그인데 2번째 p태그 */
+.info-content>p:nth-child(2) {
+    /* 끝날시 좌,우로 지정 */
+    display: flex;
+}
+
+/* 가상선택자 */
+
+/* class가 info-content 안의 p태그인데 2번째 p태그안의 span인데 2번째 스팬을 변화준다. */
+.info-content>p:nth-child(2)>span:nth-child(2)::before {
+    /* 넓이 */
+    width: 2px;
+    /* 높이 */
+    height: 11.5px;
+    /* 배경색 */
+    background-color: gray;
+    /* 뭘 쓸건지? */
+    content: '';
+    /* inline-block : 기본적으로 inline(span,p)처럼 끝났을시 옆으로 붙으나 block(예:div) 요소 처럼 margin,padding 요소를 지정 가능해진다.  */
+    display: inline-block;
+    /* 외부 여백 변화 */
+    margin: 0 20px;
+}
+/* class가 info-content 안의 p태그인데 2번째 p태그안의 span인데 3번째 스팬을 변화준다. */
+.info-content>p:nth-child(2)>span:nth-child(3)::before {
+    /* 넓이 */
+    width: 2px;
+    /* 높이 */
+    height: 11.5px;
+    /* 바탕색 */
+    background-color: gray;
+    /* 뭘쓸래? */
+    content: '';
+    /* inline속성과 block 속성을 모두가져 margin,padding 요소를 지정 가능해진다. */
+    display: inline-block;
+    /* 외부 여백 변화 */
+    margin: 0 20px;
+}
+
+/* p3 부모요소 */
+
+/* class가 info-content안의 p요소중 3번째 p요소 안의 span인데 2번째  span 을 변화준다. */
+.info-content>p:nth-child(3)>span:nth-child(2)::before {
+    /* 넓이 */
+    width: 2px;
+    /* 높이 */
+    height: 11.5px;
+    /* 바탕색 */
+    background-color: gray;
+    /* 뭘쓸래? */
+    content: '';
+    /* inline속성과 block 속성을 동시에 가지고 있어 margin,padding 요소를 줄 수 있다. */
+    display: inline-block;
+    /* 외부 여백 변화 */
+    margin: 0 20px;
+}
+
+
+/* hover 구간 */
+
+/* id가 footer-wrap 요소 안의 id가 footer-top요소 안의 a태그인데 마우스가 올려졌을시 */
+#footer-wrap>#footer-top>a:hover {
+    /* 글자색 : 하양색 */
+    color: white;
+}
+
+

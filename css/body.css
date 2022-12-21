@@ -1,0 +1,29 @@
+/* body 부분의 모든 영역 설정 */
+* {
+    /* body 외적 부분 0px로 간격x */
+    margin: 0;
+    /* body 내적 부분 0px 로 간격x */
+    padding: 0;
+    /* box-sizing : 박스의 크기를 어떤 기준으로 정할지 정한다. */
+    /* border-box : 테두리를 기준으로 박수 크기를 정한다. */
+    box-sizing: border-box;
+}
+/* a 태그 요소 변화 */
+a {
+    /* 밑줄표시 x */
+    text-decoration: none;
+}
+/* ui 태그 요소 변화 */
+ul {
+    /* 항목 모양의 종류, 위치, 항목을 넣을 위치를 한꺼번에 지정가능 */
+    /* none : 안한다. */
+    list-style: none;
+}
+
+/* id가 wrap 인 요소를 변화시킨다. */
+#wrap{
+    /* 넓이 100%로 최대 */
+    width: 100%;
+    /* 높이 100%로 최대 */
+    height: 100%;
+}
